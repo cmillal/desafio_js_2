@@ -16,18 +16,18 @@ header h1 {
     padding: 2rem;
 }
 .despegue {
-    display: flex; /* Usamos flexbox para centrar el contenido */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente (opcional, dependiendo de la altura del .despegue) */
-    /* Puedes agregar más estilos al contenedor si lo necesitas */
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
     padding: 4rem;
 }
 
 .cohete img {
-    width: 500px; /* Define el ancho deseado (ajusta este valor) */
-    height: auto; /* Mantiene la proporción de la imagen */
-    display: block; /* Evita espacios extra debajo de la imagen */
-    margin: 0 auto; /* Otra forma de centrar horizontalmente si no usas flexbox en .despegue */
+    width: 500px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
 }
 
 .con-borde-rojo {
@@ -36,26 +36,24 @@ header h1 {
 
 .stickers {
     display: flex;
-    display: flex; /* Usamos flexbox para centrar el contenido */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente (opcional, dependiendo de la altura del .despegue) */
-    /* Puedes agregar más estilos al contenedor si lo necesitas */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    
     padding: 4rem;
 }
 
 .stickers div {
-    /* Opcional: Puedes agregar estilos a los contenedores div si lo necesitas, */
-    /* por ejemplo, para controlar el ancho máximo de cada sticker */
-    /* max-width: 300px; */
-    text-align: center; /* Centra el contenido dentro de cada div (imagen y select) */
+   
+    text-align: center; 
 }
 
 .stickers img {
-    width: 350px; /* Define el ancho deseado para todas las imágenes */
-    height: auto; /* Mantiene la proporción de la imagen */
-    display: block; /* Evita espacios extra debajo de la imagen */
-    margin-bottom: 10px; /* Agrega un pequeño espacio entre la imagen y el select */
-    object-fit: cover; /* Recorta la imagen para que se ajuste al tamaño sin deformarse */
+    width: 350px; 
+    height: auto; 
+    display: block; 
+    margin-bottom: 10px; 
+    object-fit: cover; 
     padding: 2rem;
 }
 
