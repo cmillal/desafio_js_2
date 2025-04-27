@@ -30,6 +30,10 @@ header h1 {
     margin: 0 auto; /* Otra forma de centrar horizontalmente si no usas flexbox en .despegue */
 }
 
+.con-borde-rojo {
+    border: 2px solid red;
+}
+
 .stickers {
     display: flex;
     display: flex; /* Usamos flexbox para centrar el contenido */
@@ -90,8 +94,9 @@ header h1 {
     width: 500px;
 }
 
-.ingresa {
+.ingresar {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: large;
@@ -105,9 +110,26 @@ header h1 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 1rem;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+select {
+    width: 100px;
+    border: solid;
 }
 
 .ingresa {
     padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.ingresar p {
+    display: flex;
+    justify-content: center;
 }
