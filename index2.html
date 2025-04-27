@@ -3,28 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>sticker</title>
+    <link rel="stylesheet" href="./style/estilos.css">
 </head>
-<body>
-    <header class="cabecera"><p>¿te gustan los stickers?</p></header>
+<body style="background-image: url(./asset/img/wall.jpg);">
+
+    <header class="cabecera">
+        <h1>¿Te gustan los stickers?</h1>
+    </header>
+
     <main class="stickers">
+
         <div class="s1">
             <img src="./asset/img/astronauta1.jpg" alt="astronauta1">
+            <select name="as1" id="astro_luna"></select>
         </div>
-        <select name="as1" id="astro_luna"></select>
+
         <div class="s2">
             <img src="./asset/img/astronauta2.jpg" alt="astronauta2">
+            <select name="as2" id="astro_tierra"></select>
         </div>
-        <select name="as2" id="astro_tierra"></select>
+
         <div class="s3">
             <img src="./asset/img/astronauta3.jpg" alt="astronauta3">
+            <select name="as3" id="astro_planeta"></select>
         </div>
-        <select name="as3" id="astro_planeta"></select>
 
     </main>
+
+    <section class="boton_total">
+        <button>ingresar</button>
+    </section>
+
     <section class="stick">
         <p>Si estas aqui es por que te encantan los temas relacionados con el espacio, asi que tienes la 
-            posibilidad de llevarte solo 10 stickers en total, elije los que quieras
+            posibilidad de llevarte solo 10 stickers en total, elije los que quieras de estos 3 disponibles
         </p>
     </section>
     <footer class="footer">
@@ -32,5 +45,7 @@
             <a href="./index3.html">siguiente desafio</a>
         </button>
     </footer>
+
+    <script src="./asset/js/index.js"></script> 
 </body>
 </html>

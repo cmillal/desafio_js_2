@@ -1,1 +1,113 @@
 
+body {
+    display: flex; flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    color: lightgray;
+    border-color: rgb(81, 16, 245);
+    border: solid;
+    display: flex; 
+    justify-content: center;
+    padding: 2rem;
+}
+.despegue {
+    display: flex; /* Usamos flexbox para centrar el contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente (opcional, dependiendo de la altura del .despegue) */
+    /* Puedes agregar más estilos al contenedor si lo necesitas */
+    padding: 4rem;
+}
+
+.cohete img {
+    width: 500px; /* Define el ancho deseado (ajusta este valor) */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Evita espacios extra debajo de la imagen */
+    margin: 0 auto; /* Otra forma de centrar horizontalmente si no usas flexbox en .despegue */
+}
+
+.stickers {
+    display: flex;
+    display: flex; /* Usamos flexbox para centrar el contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente (opcional, dependiendo de la altura del .despegue) */
+    /* Puedes agregar más estilos al contenedor si lo necesitas */
+    padding: 4rem;
+}
+
+.stickers div {
+    /* Opcional: Puedes agregar estilos a los contenedores div si lo necesitas, */
+    /* por ejemplo, para controlar el ancho máximo de cada sticker */
+    /* max-width: 300px; */
+    text-align: center; /* Centra el contenido dentro de cada div (imagen y select) */
+}
+
+.stickers img {
+    width: 350px; /* Define el ancho deseado para todas las imágenes */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Evita espacios extra debajo de la imagen */
+    margin-bottom: 10px; /* Agrega un pequeño espacio entre la imagen y el select */
+    object-fit: cover; /* Recorta la imagen para que se ajuste al tamaño sin deformarse */
+    padding: 2rem;
+}
+
+.stick {
+    width: 550px;
+}
+.stick p {
+    background-color: rgb(102, 102, 242);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: lightgray;
+    border-color: rgb(81, 16, 245);
+    border: solid;
+    display: flex; 
+    justify-content: center;
+    padding: 2rem;
+}
+
+.aterrizo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aterrizo p {
+    background-color: rgb(102, 102, 242);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: lightgray;
+    border-color: rgb(81, 16, 245);
+    border: solid;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    width: 500px;
+}
+
+.ingresa {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: lightgray;
+    text-shadow:
+        -1px -1px 0 black, /* Sombra superior izquierda */
+}
+
+.pass {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.ingresa {
+    padding: 2rem;
+}
