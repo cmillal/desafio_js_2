@@ -74,8 +74,13 @@ header h1 {
 
 .aterrizo {
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
     justify-content: center;
+    
+}
+
+.aterrizo img {
+    padding: 1rem;
 }
 
 .aterrizo p {
@@ -130,4 +135,8 @@ select {
 .ingresar p {
     display: flex;
     justify-content: center;
+}
+
+.footer {
+    padding: 2rem;
 }
